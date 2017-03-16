@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "fix": true,
+  "rules": {
+    "func-names": ["warn", "never"],
+    "semi": ["warn", "never"],
+    "quotes": ["warn", "single"],
+    "no-undef": ["off", "never"],
+    "newline-after-var": ["warn", "always"],
+    "comma-dangle": ["error", "never"],
+    "arrow-body-style": ["error", "always"],
+    "no-param-reassign": ["off", "never"],
+  }
+}
