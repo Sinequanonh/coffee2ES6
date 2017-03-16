@@ -11,6 +11,7 @@ glob('angular/**/*.coffee', {}, (er, files) => {
       console.log(`#${index+1}/${totalCSFiles} ${decaf.stdout.replace('\n', '').green}`)
       // Transpils from ES5 to ES6/ES7
       const lebab = shell.exec(`lebab --replace ${file.replace('coffee', 'js')} --transform arrow,let,template,includes,default-param,commonjs`).red
+      const eslint = shell.exec(`eslint --fix ${file.replace('coffee', 'js')}`)
     } else { 
       console.log(`#${index+1}/${totalCSFiles } | ${decaf.stderr.replace('\n', '').red}`); 
     }
