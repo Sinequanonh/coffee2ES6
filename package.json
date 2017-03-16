@@ -1,13 +1,17 @@
 {
   "name": "coffee2es6",
   "version": "1.0.0",
-  "description": "",
+  "description": "Decaffeinate your project",
   "main": "decaf.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "decaffeinate",
+    "lebab",
+    "eslint"
+  ],
+  "author": "leobkr <leo.baecker@epitech.eu>",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.1.2",
