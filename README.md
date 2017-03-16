@@ -1,2 +1,6 @@
 # coffee2ES6
-Transpils your .coffee to ES6/ES7 js files
+Decaffeinate your coffee files to ES6/ES7 files
+
+`npm install`
+
+Then run it with node
